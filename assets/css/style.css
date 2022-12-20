@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+h1{
+    margin-bottom: 5vh;
+}
+
+section{
+    border:1px solid black;
+}
+
+li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+ul{
+    padding-inline-start:1.2em;
+}
+
+.dogs::before{
+    content:"🐶";
+}
+
+.cats::before{
+    content:"😺";
+}
+
+
+.birds::before{
+    content:"🐦";
+}
+
+.snakes::before{
+    content:"🐍";
+}
+
+.lizzards::before{
+    content: "🦎";
+}
+
